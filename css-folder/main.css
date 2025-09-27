@@ -1,0 +1,71 @@
+@font-face {
+  font-family: generalFont;
+  src: url(../font-folder/OpenSans-VariableFont_wdthwght.ttf);
+  src: url(../font-folder/OpenSans-Italic-VariableFont_wdthwght.ttf);
+}
+.site-head {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 80px;
+  background-color: red;
+}
+.site-head__logo-menu {
+  display: flex;
+  gap: 74px;
+}
+.site-head__logo {
+  width: 35px;
+  height: 35px;
+}
+.site-head__union {
+  width: 100%;
+}
+.site-head__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site-head__item-list {
+  display: flex;
+  gap: 56px;
+}
+.site-head__menu-link {
+  font-family: generalFont;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #36485c;
+}
+.site-head__account-sign-in {
+  display: flex;
+  gap: 56px;
+}
+.site-head__account-content {
+  font-family: generalFont;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #36485c;
+}
+.site-head__sign-in {
+  display: flex;
+  gap: 12px;
+}
+.site-head__user {
+  width: 26px;
+  height: 26px;
+}
+.site-head__circle-user {
+  width: 100%;
+}
+.site-head__sign-content {
+  font-family: generalFont;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #36485c;
+}/*# sourceMappingURL=main.css.map */
