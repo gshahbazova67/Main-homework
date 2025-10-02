@@ -1238,4 +1238,91 @@
     cursor: pointer;
     border: 2px dotted #4328eb;
   }
+  &__cta {
+    width: 1280px;
+    height: 492px;
+    border-radius: 16px;
+    background-image: url(../img-folder/background/Gradient-2.svg);
+    position: absolute;
+    top: 6200px;
+    left: 100px;
+  }
+  &__cta__content__title {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__cta__content__text {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__cta__content {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+  }
+  &__cta__buttons {
+    width: 358px;
+    height: 56px;
+    position: absolute;
+    top: 348px;
+    left: 461px;
+    display: flex;
+    gap: 40px;
+  }
+  &__cta__buttons__button__input-button {
+    width: 160px;
+    height: 56px;
+    border-radius: 4px;
+    padding: 16px 32px;
+    display: flex;
+    gap: 10px;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #eb2891;
+  }
+  &__cta__buttons__button-link_input-button {
+    width: 160px;
+    height: 56px;
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  &__cta__buttons__button-link_arrow {
+    width: 26px;
+    height: 26px;
+    border-radius: 30px;
+    padding: 6px;
+    background-color: #ffffff;
+  }
+  &__cta__buttons__button-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
