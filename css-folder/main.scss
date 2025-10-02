@@ -668,4 +668,280 @@
   &__testimonials__comments__image {
     width: 100%;
   }
+  &__fags {
+    padding: 120px 80px 60px 80px;
+    display: flex;
+    gap: 24px;
+    position: relative;
+  }
+  &__fags__copy {
+    padding: 32px 56px 32px;
+    display: block;
+    gap: 16px;
+    position: absolute;
+    top: 2400px;
+  }
+  &__fags__copy__link {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #eb2891;
+  }
+  &__fags__copy__title {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 42px;
+    line-height: 58px;
+    text-align: justify;
+    color: #172026;
+  }
+  &__fags__copy__text {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    color: #36485c;
+  }
+  &__fags__questions {
+    display: block;
+    gap: 16px;
+    position: relative;
+  }
+  &__fags__questions__1 {
+    width: 737px;
+    height: auto;
+    border-radius: 8px;
+    border-bottom: 1px;
+    padding: 24px;
+    display: block;
+    gap: 16px;
+    background-color: #e3f1ff;
+    position: absolute;
+    top: 2315px;
+    left: 550px;
+  }
+  &__fags__questions__1__details {
+    display: block;
+    gap: 16px;
+  }
+  &__fags__questions__1__summary {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 18px;
+    line-height: 24px;
+    color: #172026;
+  }
+  &__fags__questions__1__text {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #36485c;
+  }
+  &__fags__questions__2 {
+    width: 737px;
+    height: auto;
+    border-radius: 8px;
+    border-bottom: 1px;
+    padding: 24px;
+    display: block;
+    gap: 16px;
+    background-color: #e3f1ff;
+    position: absolute;
+    top: 2415px;
+    left: 550px;
+  }
+  &__fags__questions__2__details {
+    display: block;
+    gap: 16px;
+  }
+  &__fags__questions__2__summary {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 18px;
+    line-height: 24px;
+    color: #172026;
+  }
+  &__fags__questions__2__text {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #36485c;
+  }
+  &__fags__questions__3 {
+    width: 737px;
+    height: auto;
+    border-radius: 8px;
+    border-bottom: 1px;
+    padding: 24px;
+    display: block;
+    gap: 16px;
+    background-color: #e3f1ff;
+    position: absolute;
+    top: 2515px;
+    left: 550px;
+  }
+  &__fags__questions__3__details {
+    display: block;
+    gap: 16px;
+  }
+  &__fags__questions__3__summary {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 18px;
+    line-height: 24px;
+    color: #172026;
+  }
+  &__fags__questions__3__text {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #36485c;
+  }
+  &__fags__questions__4 {
+    width: 737px;
+    height: auto;
+    border-radius: 8px;
+    border-bottom: 1px;
+    padding: 24px;
+    display: block;
+    gap: 16px;
+    background-color: #e3f1ff;
+    position: absolute;
+    top: 2615px;
+    left: 550px;
+  }
+  &__fags__questions__4__details {
+    display: block;
+    gap: 16px;
+  }
+  &__fags__questions__4__summary {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 18px;
+    line-height: 24px;
+    color: #172026;
+  }
+  &__fags__questions__4__text {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #36485c;
+  }
+  &__fags__questions__5 {
+    width: 737px;
+    height: auto;
+    border-radius: 8px;
+    border-bottom: 1px;
+    padding: 24px;
+    display: block;
+    gap: 16px;
+    background-color: #e3f1ff;
+    position: absolute;
+    top: 2715px;
+    left: 550px;
+  }
+  &__fags__questions__5__details {
+    display: block;
+    gap: 16px;
+  }
+  &__fags__questions__5__summary {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 18px;
+    line-height: 24px;
+    color: #172026;
+  }
+  &__fags__questions__5__text {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #36485c;
+  }
+  &__fags__questions__6 {
+    width: 737px;
+    height: auto;
+    border-radius: 8px;
+    border-bottom: 1px;
+    padding: 24px;
+    display: block;
+    gap: 16px;
+    background-color: #e3f1ff;
+    position: absolute;
+    top: 2815px;
+    left: 550px;
+  }
+  &__fags__questions__6__details {
+    display: block;
+    gap: 16px;
+  }
+  &__fags__questions__6__summary {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 18px;
+    line-height: 24px;
+    color: #172026;
+  }
+  &__fags__questions__6__text {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #36485c;
+  }
+  &__fags__questions__7 {
+    width: 737px;
+    height: auto;
+    border-radius: 8px;
+    border-bottom: 1px;
+    padding: 24px;
+    display: block;
+    gap: 16px;
+    background-color: #e3f1ff;
+    position: absolute;
+    top: 2915px;
+    left: 550px;
+  }
+  &__fags__questions__7__details {
+    display: block;
+    gap: 16px;
+  }
+  &__fags__questions__7__summary {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 18px;
+    line-height: 24px;
+    color: #172026;
+  }
+  &__fags__questions__7__text {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #36485c;
+  }
 }
