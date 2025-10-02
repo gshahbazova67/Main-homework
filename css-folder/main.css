@@ -70,7 +70,7 @@
 }
 
 .site-main {
-  height: 7677px;
+  height: auto;
   background-color: #ffffff;
 }
 .site-main__hero {
@@ -1191,7 +1191,7 @@
   color: #36485c;
 }
 .site-main__plans__prices__3__custom {
-  display: flex;
+  display: block;
   gap: 2px;
   margin: 24px;
 }
@@ -1200,8 +1200,10 @@
   font-weight: 500;
   font-style: medium;
   font-size: 32px;
-  line-height: 40px;
+  line-height: 24px;
   color: #172026;
+  text-align: center;
+  margin: 30px 0;
 }
 .site-main__plans__prices__3__custom__text-1 {
   font-family: generalFont;
@@ -1210,6 +1212,8 @@
   font-size: 16px;
   line-height: 24px;
   color: #36485c;
+  text-align: justify;
+  margin-bottom: 16px;
 }
 .site-main__plans__prices__3__custom__text-2 {
   font-family: generalFont;
@@ -1327,4 +1331,83 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.site-footer {
+  height: auto;
+  padding: 120px 80px 56px 80px;
+  display: block;
+  gap: 104px;
+  position: relative;
+  top: 4200px;
+}
+.site-footer__logo-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.site-footer__logo-menu__logo {
+  display: flex;
+}
+.site-footer__logo-menu__logo__union {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 15px;
+  left: 47px;
+}
+.site-footer__logo-menu__logo__text {
+  position: absolute;
+  top: 20px;
+  left: 90px;
+  font-family: generalFont;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 17px;
+  line-height: 24px;
+}
+.site-footer__logo-menu__menu {
+  display: flex;
+  gap: 100px;
+  position: absolute;
+  top: 15px;
+  left: 700px;
+}
+.site-footer__logo-menu__menu__features {
+  display: block;
+  gap: 32px;
+}
+.site-footer__logo-menu__menu div {
+  display: block;
+  gap: 32px;
+}
+.site-footer__logo-menu__menu ul li a {
+  font-family: generalFont;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 20px;
+  line-height: 30px;
+  color: #36485c;
+}
+.site-footer__copyright-socials {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: space-between;
+  gap: 750px;
+}
+.site-footer__copyright-socials__text {
+  font-family: generalFont;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5f7896;
+}
+.site-footer__copyright-socials__socials {
+  display: flex;
+  gap: 56px;
+}
+.site-footer__copyright-socials__socials img {
+  width: 20px;
+  height: 20px;
 }/*# sourceMappingURL=main.css.map */
