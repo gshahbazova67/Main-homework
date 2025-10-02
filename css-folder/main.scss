@@ -944,4 +944,298 @@
     line-height: 28px;
     color: #36485c;
   }
+  &__plans {
+    padding: 60px 80px 120px 80px;
+    display: block;
+    gap: 64px;
+    position: relative;
+  }
+  &__plans__heading {
+    display: block;
+    gap: 16px;
+    position: absolute;
+    top: 3000px;
+    left: 500px;
+  }
+  &__plans__heading__title {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 42px;
+    line-height: 58px;
+    text-align: center;
+    color: #172026;
+  }
+  &__plans__heading__text {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #36485c;
+  }
+  &__plans__prices {
+    width: 1280px;
+    height: 490px;
+    display: flex;
+    gap: 24px;
+    position: absolute;
+    top: 3150px;
+  }
+  &__plans__prices__1 {
+    width: 411px;
+    height: 490px;
+    border-radius: 8px;
+    padding: 24px;
+    display: block;
+    gap: 32px;
+  }
+  &__plans__prices__1__name-description {
+    display: block;
+    gap: 16px;
+    margin: 24px;
+  }
+  &__plans__prices__1__name-description__title {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 20px;
+    line-height: 26px;
+    color: #4328eb;
+  }
+  &__plans__prices__1__name-description__text {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #36485c;
+  }
+  &__plans__prices__1__pricing {
+    display: flex;
+    gap: 2px;
+    margin: 24px;
+  }
+  &__plans__prices__1__pricing__text-1 {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 32px;
+    line-height: 40px;
+    color: #172026;
+  }
+  &__plans__prices__1__pricing__text-2 {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 32px;
+    line-height: 40px;
+    color: #5f7896;
+  }
+  &__plans__prices__1__inclusions {
+    display: block;
+    gap: 16px;
+    margin-top: 24px;
+    margin-left: 44px;
+  }
+  &__plans__prices__1__inclusions__list__item {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 16px;
+    line-height: 24px;
+    color: #36485c;
+    list-style-image: url(../img-folder/icon/Check.svg);
+  }
+  &__plans__prices__1__button {
+    display: flex;
+    gap: 10px;
+    margin-top: 104px;
+    width: 363px;
+    height: 52px;
+  }
+  &__plans__prices__1__input-button {
+    width: 100%;
+    height: 52px;
+    border-radius: 4px;
+    padding: 14px 30px;
+    background-color: #ffffff;
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4328eb;
+    cursor: pointer;
+    border: 2px dotted #4328eb;
+  }
+  &__plans__prices__2 {
+    width: 411px;
+    height: 490px;
+    border-radius: 8px;
+    padding: 24px;
+    display: block;
+    gap: 32px;
+    background-color: #4328eb;
+  }
+  &__plans__prices__2__name-description {
+    display: block;
+    gap: 16px;
+    margin: 24px;
+  }
+  &__plans__prices__2__name-description__title {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  &__plans__prices__2__name-description__text {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+  &__plans__prices__2__pricing {
+    display: flex;
+    gap: 2px;
+    margin: 24px;
+  }
+  &__plans__prices__2__pricing__text-1 {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+  &__plans__prices__2__pricing__text-2 {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 32px;
+    line-height: 40px;
+    color: #ffffff;
+  }
+  &__plans__prices__2__inclusions {
+    display: block;
+    gap: 16px;
+    margin-top: 24px;
+    margin-left: 44px;
+  }
+  &__plans__prices__2__inclusions__list__item {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    list-style-image: url(../img-folder/icon/Check.svg);
+  }
+  &__plans__prices__2__button {
+    display: flex;
+    gap: 10px;
+    margin-top: 104px;
+    width: 363px;
+    height: 52px;
+  }
+  &__plans__prices__2__input-button {
+    width: 100%;
+    height: 52px;
+    border-radius: 4px;
+    padding: 14px 30px;
+    background-color: #ffffff;
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4328eb;
+    cursor: pointer;
+    border: 2px dotted #4328eb;
+  }
+  &__plans__prices__3 {
+    width: 411px;
+    height: 490px;
+    border-radius: 8px;
+    padding: 24px;
+    display: block;
+    gap: 32px;
+  }
+  &__plans__prices__3__name-description {
+    display: block;
+    gap: 16px;
+    margin: 24px;
+  }
+  &__plans__prices__3__name-description__title {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 20px;
+    line-height: 26px;
+    color: #4328eb;
+  }
+  &__plans__prices__3__name-description__text {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 18px;
+    line-height: 28px;
+    color: #36485c;
+  }
+  &__plans__prices__3__custom {
+    display: flex;
+    gap: 2px;
+    margin: 24px;
+  }
+  &__plans__prices__3__custom__title {
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 32px;
+    line-height: 40px;
+    color: #172026;
+  }
+  &__plans__prices__3__custom__text-1 {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 16px;
+    line-height: 24px;
+    color: #36485c;
+  }
+  &__plans__prices__3__custom__text-2 {
+    font-family: generalFont;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 16px;
+    line-height: 24px;
+    color: #36485c;
+  }
+  &__plans__prices__2__button {
+    display: flex;
+    gap: 10px;
+    margin-top: 104px;
+    width: 363px;
+    height: 52px;
+  }
+  &__plans__prices__3__input-button {
+    width: 100%;
+    height: 52px;
+    border-radius: 4px;
+    padding: 14px 30px;
+    background-color: #ffffff;
+    font-family: generalFont;
+    font-weight: 500;
+    font-style: medium;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4328eb;
+    cursor: pointer;
+    border: 2px dotted #4328eb;
+  }
 }
